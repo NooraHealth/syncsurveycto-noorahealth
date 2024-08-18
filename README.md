@@ -12,8 +12,13 @@ Extract and load.
 1. Rename syncsurveycto-rsurveycto.Rproj to match the new repo's name.
 1. In the repo's main directory, create a folder called secrets.
 1. Start an R session in the new repo's main directory. You should see a message that a project was loaded by [renv](https://rstudio.github.io/renv/index.html).
-1. In R, run `renv::upgrade()` to ensure the repo is using the latest version of renv.
-1. In R, run `renv::restore()` to restore the local project library.
+1. In R, run the following commands to upgrade the repo to the latest version of renv, restore the local project library, update the packages, and record the state of the library.
+   ```r
+   renv::upgrade()
+   renv::restore()
+   renv::update()
+   renv::snapshot()
+   ```
 
 ## Set up SurveyCTO
 
