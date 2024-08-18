@@ -1,9 +1,9 @@
-auth_file: agencyfund-raw-e23214da9143.json
+auth_file: noorahealth-raw-airbyte-user.json
 platform: bigquery
 environments:
   - name: prod
-    project: agencyfund-raw
+    project: noorahealth-raw
     dataset: surveycto
   - name: dev
-    project: agencyfund-raw
+    project: noorahealth-raw
     dataset: surveycto_dev
