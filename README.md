@@ -28,7 +28,7 @@ Extract and load.
 1. Create a service account named syncsurveycto-user.
 1. Create a JSON key for the service account, and download the JSON file to the secrets folder.
 1. For the project, give the service account (whose email address will be something like syncsurveycto-user@iam.xyz-raw.gserviceaccount.com) the role BigQuery User.
-1. Create two BigQuery datasets named surveycto and surveycto_dev.
+1. Create two BigQuery datasets named surveycto and surveycto_dev in the desired region.
 1. For each of the two datasets, click Share, then Manage Permissions, then Add Principal, then add the information below (changing xyz-raw as appropriate), and click Save.
     - Add principals: syncsurveycto-user@iam.xyz-raw.gserviceaccount.com
     - Assign roles: BigQuery Data Editor
