@@ -119,7 +119,7 @@ Extract and load.
 # Update the schedule on which the pipeline runs
 
 1. On your local machine, ensure you are not on the main branch.
-1. In the .github/workflows/sync_surveycto.yaml file, edit the line that starts with "- cron:". See details [here](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule).
+1. In the .github/workflows/sync_surveycto.yaml file, edit the `cron` item. See details [here](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule).
 1. Make a git commit and push changes to GitHub.
 1. On GitHub, create a sensibly named pull request and add someone as a reviewer.
 1. Ensure that the syncs initiated by the pull request and run on GitHub Actions succeed.
