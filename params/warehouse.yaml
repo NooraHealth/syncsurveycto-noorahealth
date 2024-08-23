@@ -1,4 +1,4 @@
-auth_file: noorahealth-raw-airbyte-user.json
+auth_file: noorahealth-raw-syncsurveycto-user.json
 platform: bigquery
 environments:
   - name: prod
