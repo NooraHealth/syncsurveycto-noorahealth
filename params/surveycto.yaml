@@ -12,9 +12,9 @@ environments:
 
   - name: dev
     streams:
-      - id: indonesia_mch_2
+      - id: ccp_audit_tool_bd
         sync_mode: deduped
-      - id: ttexp1_23_c4
+      - id: indonesia_mch_2
         sync_mode: deduped
       - id: covid_teletraining_cohort
         sync_mode: overwrite
