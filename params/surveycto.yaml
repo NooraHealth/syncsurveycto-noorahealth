@@ -4,6 +4,8 @@ environments:
   # >>>>> THIS IS SPARTA!
   - name: prod
     streams:
+      - id: ccp_audit_tool_bd
+        sync_mode: deduped
       - id: indonesia_mch_2
         sync_mode: deduped
       - id: covid_teletraining_cohort
