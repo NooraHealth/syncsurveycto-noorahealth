@@ -582,14 +582,14 @@
     },
     "syncsurveycto": {
       "Package": "syncsurveycto",
-      "Version": "0.1.2",
+      "Version": "0.1.3",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "syncsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "70cea01521609d9abbc4593829fb33eb1aae16e8",
+      "RemoteSha": "1fef6050ce3c9695f005cd1b00d99647fd145351",
       "Remotes": "agency-fund/rsurveycto",
       "Requirements": [
         "DBI",
@@ -608,7 +608,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "46a60f3719b17aef9bd3aad98ed70d2e"
+      "Hash": "75705d89d79b8f1b96144049fda726eb"
     },
     "sys": {
       "Package": "sys",
