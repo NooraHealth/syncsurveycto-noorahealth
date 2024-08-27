@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.0",
+    "Version": "4.4.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -555,14 +555,14 @@
     },
     "rsurveycto": {
       "Package": "rsurveycto",
-      "Version": "0.2.0",
+      "Version": "0.2.1",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "rsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "e6029de8ab07a252781ec2dec5952e712c83f62e",
+      "RemoteSha": "165bd22b1466acdeb40aea75a6e6d35a7a7715c1",
       "Requirements": [
         "R",
         "checkmate",
@@ -578,7 +578,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "9c50321cf2583a8408d6ffdef24856e9"
+      "Hash": "47b9cbe15251baeef535edc5e2c1a20e"
     },
     "syncsurveycto": {
       "Package": "syncsurveycto",
