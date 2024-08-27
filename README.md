@@ -1,3 +1,5 @@
+[![sync_surveycto](https://github.com/agency-fund/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml/badge.svg)](https://github.com/agency-fund/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml)
+
 # Overview
 
 Extract and load.
@@ -10,6 +12,7 @@ Extract and load.
 1. Enter a repository name, such as syncsurveycto-xyz, where xyz is the name of the SurveyCTO server to be synced, and click "Create repository".
 1. Clone the new repo to a directory on your machine of choice.
 1. Rename syncsurveycto-rsurveycto.Rproj to match the new repo's name.
+1. In the first line of README.md, change the two instances of "agency-fund/syncsurveycto-rsurveycto" to match the new repo's organization and name.
 1. In the repo's main directory, create a folder called secrets.
 1. Start an R session in the new repo's main directory. You should see a message that a project was loaded by [renv](https://rstudio.github.io/renv/index.html).
 1. In R, run the following commands to upgrade the repo to the latest version of renv, restore the local project library, update the packages, and record the state of the library.
