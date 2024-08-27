@@ -1,4 +1,4 @@
-[![sync_surveycto](https://github.com/agency-fund/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml/badge.svg)](https://github.com/agency-fund/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml)
+[![sync_surveycto](https://github.com/NooraHealth/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml/badge.svg)](https://github.com/NooraHealth/syncsurveycto-noorahealth/actions/workflows/sync_surveycto.yaml)
 
 # Overview
 
