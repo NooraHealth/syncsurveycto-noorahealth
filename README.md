@@ -76,14 +76,16 @@ Extract and load.
 # Add a form or dataset to the pipeline
 
 1. On your local machine, ensure you are not on the main branch.
-1. Update params/surveycto.yaml by adding two lines to the streams list of the **dev** section, as indicated below. Take care with indentation.
+1. Update params/surveycto.yaml by adding lines to the streams list of the **dev** section, as indicated below. Take care with indentation.
     ```
     - id: best_id_ever
       sync_mode: chosen_sync_mode
+      # review_status: approved # optional for forms, not allowed for datasets
     ```
+    The default value for review_status for forms is approved. To specify multiple values, use an underscore-separated string, e.g., approved_pending.
 1. In the terminal, run `Rscript code/main.R` and ensure that the syncs succeed.
 1. Go to the part of your warehouse specified in the **dev** environment of the params/warehouse.yaml file and ensure that the columns, number of rows, and content of the new table(s) look(s) right.
-1. Carefully copy the two lines for id and sync_mode and paste them into the streams list of the **prod** section. Remember, [this is Sparta](https://youtu.be/cAacE5ukzrs?feature=shared&t=170).
+1. Carefully copy the new lines from the **dev** section and paste them into the streams list of the **prod** section. Remember, [this is Sparta](https://youtu.be/cAacE5ukzrs?feature=shared&t=170).
 1. Make a git commit and push the changes to GitHub.
 1. On GitHub, create a sensibly named pull request and add someone as a reviewer.
 1. Ensure that the syncs initiated by the pull request and run on GitHub Actions succeed.
@@ -95,7 +97,7 @@ Extract and load.
 # Remove a form or dataset from the pipeline
 
 1. On your local machine, ensure you are not on the main branch.
-1. Update params/surveycto.yaml by deleting or commenting out the two lines for id and sync_mode from the streams lists of the **dev** and the **prod** sections.
+1. Update params/surveycto.yaml by deleting or commenting out the relevant lines from the streams lists of the **dev** and the **prod** sections.
 1. In the terminal, run `Rscript code/main.R` and ensure that the syncs succeed.
 1. Make a git commit and push the changes to GitHub.
 1. On GitHub, create a sensibly named pull request and add someone as a reviewer.
