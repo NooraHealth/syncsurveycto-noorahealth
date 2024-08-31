@@ -240,14 +240,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.15.4",
+      "Version": "1.16.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "8ee9ac56ef633d0c7cab8b2ca87d683e"
+      "Hash": "fb24e05d4a91d8b1c7ff8e284bde834a"
     },
     "fansi": {
       "Package": "fansi",
@@ -562,7 +562,7 @@
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "rsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "fd32f2c9c7abdd718f99b722288a7d828106bfc6",
+      "RemoteSha": "dc6526144409aaf75aab1b93d99ab38d53e25dee",
       "Requirements": [
         "R",
         "checkmate",
@@ -578,18 +578,18 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "9c5af600d46ce729a47ce1565d841d77"
+      "Hash": "05deb0df88c1aceb9c72be580199e717"
     },
     "syncsurveycto": {
       "Package": "syncsurveycto",
-      "Version": "0.1.4",
+      "Version": "0.1.5",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "syncsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "02fe86f5d926c049f234ead7f58f15cf7aa1153c",
+      "RemoteSha": "cddf26476eb211903dd3781253816918aa48156d",
       "Remotes": "agency-fund/rsurveycto",
       "Requirements": [
         "DBI",
@@ -608,7 +608,7 @@
         "withr",
         "yaml"
       ],
-      "Hash": "50a23e4c3369027bea89f19a1498f4c3"
+      "Hash": "0b62c521c0293514273f1afe70395a08"
     },
     "sys": {
       "Package": "sys",
