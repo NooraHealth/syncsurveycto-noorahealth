@@ -16,5 +16,25 @@ environments:
         sync_mode: deduped
       - id: indonesia_mch_2
         sync_mode: deduped
-      - id: covid_teletraining_cohort
-        sync_mode: overwrite
+      # - id: covid_teletraining_cohort
+      #   sync_mode: overwrite
+      - id: tt_checkup_2023__experiment_2__65_months
+        sync_mode: deduped
+      - id: tt_checkup_2023__experiment_2__7_months
+        sync_mode: deduped
+      - id: tt_checkup__2023__experiment_2__75_months
+        sync_mode: deduped
+      - id: tt_checkup__2023__experiment_2__8_months
+        sync_mode: deduped
+      - id: tt_checkup__2023__experiment_2__85_months
+        sync_mode: deduped
+      - id: tt_checkup__2023__experiment_2__9_months
+        sync_mode: deduped
+      - id: tt_checkup_2023__experiment_2__post_delivery__15_days
+        sync_mode: deduped
+      - id: tt_checkup_2023__experiment_2__post_delivery__30_days
+        sync_mode: deduped
+      - id: tt_checkup_2023__experiment_2__post_delivery__40_days
+        sync_mode: deduped
+      - id: tt_checkup_2023__experiment_2__post_delivery__60_days
+        sync_mode: deduped
