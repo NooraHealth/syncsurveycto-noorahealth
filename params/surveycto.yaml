@@ -58,3 +58,6 @@ environments:
         sync_mode: deduped
       - id: tt_checkup_2023__experiment_2__post_delivery__60_days
         sync_mode: deduped
+      - id: ttexp2_cases
+        sync_mode: overwrite
+
