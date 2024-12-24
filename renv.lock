@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.1",
+    "Version": "4.4.2",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -145,6 +145,17 @@
       ],
       "Hash": "c1ee497a6d999947c2c224ae46799b1a"
     },
+    "cachem": {
+      "Package": "cachem",
+      "Version": "1.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "fastmap",
+        "rlang"
+      ],
+      "Hash": "cd9a672193789068eb5a2aad65a0dedf"
+    },
     "cellranger": {
       "Package": "cellranger",
       "Version": "1.1.0",
@@ -249,6 +260,29 @@
       ],
       "Hash": "fb24e05d4a91d8b1c7ff8e284bde834a"
     },
+    "dplyr": {
+      "Package": "dplyr",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "R6",
+        "cli",
+        "generics",
+        "glue",
+        "lifecycle",
+        "magrittr",
+        "methods",
+        "pillar",
+        "rlang",
+        "tibble",
+        "tidyselect",
+        "utils",
+        "vctrs"
+      ],
+      "Hash": "fedd9d00c2944ff00a0e2696ccf048ec"
+    },
     "fansi": {
       "Package": "fansi",
       "Version": "1.0.6",
@@ -260,6 +294,13 @@
         "utils"
       ],
       "Hash": "962174cf2aeb5b9eea581522286a911f"
+    },
+    "fastmap": {
+      "Package": "fastmap",
+      "Version": "1.2.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "aa5e1cd11c2d15497494c5292d7ffcc8"
     },
     "foreach": {
       "Package": "foreach",
@@ -415,6 +456,17 @@
       ],
       "Hash": "7ce2733a9826b3aeb1775d56fd305472"
     },
+    "memoise": {
+      "Package": "memoise",
+      "Version": "2.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "cachem",
+        "rlang"
+      ],
+      "Hash": "e2817ccf4a065c5d9d7f2cfbe7c1d78c"
+    },
     "mime": {
       "Package": "mime",
       "Version": "0.12",
@@ -534,13 +586,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "1.0.7",
+      "Version": "1.0.11",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "397b7b2a265bc5a7a06852524dabae20"
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
     },
     "rlang": {
       "Package": "rlang",
@@ -580,6 +632,27 @@
       ],
       "Hash": "05deb0df88c1aceb9c72be580199e717"
     },
+    "slackr": {
+      "Package": "slackr",
+      "Version": "3.3.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cachem",
+        "dplyr",
+        "grDevices",
+        "httr",
+        "jsonlite",
+        "magrittr",
+        "memoise",
+        "rlang",
+        "tibble",
+        "utils",
+        "withr"
+      ],
+      "Hash": "652c91f452bc8a46d2ab155cd08a41fe"
+    },
     "syncsurveycto": {
       "Package": "syncsurveycto",
       "Version": "0.1.5",
@@ -590,7 +663,6 @@
       "RemoteRepo": "syncsurveycto",
       "RemoteRef": "main",
       "RemoteSha": "cddf26476eb211903dd3781253816918aa48156d",
-      "Remotes": "agency-fund/rsurveycto",
       "Requirements": [
         "DBI",
         "R",
@@ -635,6 +707,22 @@
         "vctrs"
       ],
       "Hash": "a84e2cc86d07289b3b6f5069df7a004c"
+    },
+    "tidyselect": {
+      "Package": "tidyselect",
+      "Version": "1.2.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "cli",
+        "glue",
+        "lifecycle",
+        "rlang",
+        "vctrs",
+        "withr"
+      ],
+      "Hash": "829f27b9c4919c16b593794a6344d6c0"
     },
     "timechange": {
       "Package": "timechange",
