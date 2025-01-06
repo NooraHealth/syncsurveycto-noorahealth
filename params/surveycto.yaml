@@ -30,11 +30,15 @@ environments:
         sync_mode: deduped
       - id: ttexp2_cases
         sync_mode: overwrite
+      - id: tt_experiment_two_datasheet
+        sync_mode: overwrite
+      - id: teletraining_experiment_2
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
-      - id: tt_checkup_2023__experiment_2__post_delivery__60_days
-        sync_mode: deduped
-      - id: ttexp2_cases
+      - id: tt_experiment_two_datasheet
         sync_mode: overwrite
+      - id: teletraining_experiment_2
+        sync_mode: deduped
