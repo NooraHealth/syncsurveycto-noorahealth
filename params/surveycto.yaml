@@ -34,11 +34,17 @@ environments:
         sync_mode: overwrite
       - id: teletraining_experiment_2
         sync_mode: deduped
+      - id: bd_pre_survey_tool
+        sync_mode: deduped
+      - id: bd_post_survey_tool
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
       - id: tt_experiment_two_datasheet
         sync_mode: overwrite
-      - id: teletraining_experiment_2
+      - id: bd_pre_survey_tool
+        sync_mode: deduped
+      - id: bd_post_survey_tool
         sync_mode: deduped
