@@ -38,13 +38,13 @@ environments:
         sync_mode: deduped
       - id: bd_post_survey_tool
         sync_mode: deduped
+      - id: expt_2503131_phone_followup
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
       - id: tt_experiment_two_datasheet
         sync_mode: overwrite
-      - id: bd_pre_survey_tool
-        sync_mode: deduped
-      - id: bd_post_survey_tool
+      - id: expt_2503131_phone_followup
         sync_mode: deduped
