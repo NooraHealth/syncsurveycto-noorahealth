@@ -42,6 +42,8 @@ environments:
         sync_mode: deduped
       - id: nepal_mch_ccp_session_quality_assessment_tool
         sync_mode: deduped
+      - id: qat_nepal_202506
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
@@ -51,4 +53,6 @@ environments:
       - id: expt_2503131_phone_followup
         sync_mode: deduped
       - id: nepal_mch_ccp_session_quality_assessment_tool
+        sync_mode: deduped
+      - id: qat_nepal_202506
         sync_mode: deduped
