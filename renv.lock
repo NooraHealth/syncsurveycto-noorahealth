@@ -1842,11 +1842,11 @@
       "Author": "Jake Hughey [aut, cre]",
       "Maintainer": "Jake Hughey <jake@agency.fund>",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "syncsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "f5e96494761445e651fa086b961ffb3ef3f7f49b",
+      "RemoteSha": "7ff28ca5b02d1c838901b021ff3b7140ddf2cf4c",
+      "RemoteHost": "api.github.com",
       "Remotes": "agency-fund/rsurveycto"
     },
     "sys": {
