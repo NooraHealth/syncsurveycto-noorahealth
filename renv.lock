@@ -1711,7 +1711,7 @@
     },
     "rsurveycto": {
       "Package": "rsurveycto",
-      "Version": "0.2.1",
+      "Version": "0.2.2",
       "Source": "GitHub",
       "Type": "Package",
       "Title": "Interact with Data on 'SurveyCTO'",
@@ -1753,7 +1753,7 @@
       "RemoteUsername": "agency-fund",
       "RemoteRepo": "rsurveycto",
       "RemoteRef": "main",
-      "RemoteSha": "dc6526144409aaf75aab1b93d99ab38d53e25dee"
+      "RemoteSha": "f096ef0cfe347935916e5af76501e18dd44da83f"
     },
     "slackr": {
       "Package": "slackr",
