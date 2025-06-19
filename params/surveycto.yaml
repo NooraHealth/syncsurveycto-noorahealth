@@ -44,15 +44,15 @@ environments:
         sync_mode: deduped
       - id: qat_nepal_202506
         sync_mode: deduped
+      - id: whatsapp_norms_survey
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
       - id: tt_experiment_two_datasheet
         sync_mode: overwrite
-      - id: expt_2503131_phone_followup
-        sync_mode: deduped
-      - id: nepal_mch_ccp_session_quality_assessment_tool
+      - id: whatsapp_norms_survey
         sync_mode: deduped
       - id: qat_nepal_202506
         sync_mode: deduped
