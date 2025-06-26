@@ -46,13 +46,13 @@ environments:
         sync_mode: deduped
       - id: whatsapp_norms_survey
         sync_mode: deduped
+      - id: knowledge_nepal_202506
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
       - id: tt_experiment_two_datasheet
         sync_mode: overwrite
-      - id: whatsapp_norms_survey
-        sync_mode: deduped
-      - id: qat_nepal_202506
+      - id: knowledge_nepal_202506
         sync_mode: deduped
