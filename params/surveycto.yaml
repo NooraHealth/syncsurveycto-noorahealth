@@ -48,6 +48,8 @@ environments:
         sync_mode: deduped
       - id: knowledge_nepal_202506
         sync_mode: deduped
+      - id: knowledge_bangladesh_202507
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
@@ -55,4 +57,6 @@ environments:
       - id: tt_experiment_two_datasheet
         sync_mode: overwrite
       - id: knowledge_nepal_202506
+        sync_mode: deduped
+      - id: knowledge_bangladesh_202507
         sync_mode: deduped
