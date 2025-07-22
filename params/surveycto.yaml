@@ -48,7 +48,7 @@ environments:
         sync_mode: deduped
       - id: knowledge_nepal_202506
         sync_mode: deduped
-      - id: knowledge_bangladesh_202506
+      - id: knowledge_bangladesh_202507
         sync_mode: overwrite
   # <<<<< THIS IS SPARTA!
 
@@ -58,5 +58,5 @@ environments:
         sync_mode: overwrite
       - id: knowledge_nepal_202506
         sync_mode: deduped
-      - id: knowledge_bangladesh_202506
+      - id: knowledge_bangladesh_202507
         sync_mode: overwrite
