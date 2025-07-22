@@ -58,5 +58,5 @@ environments:
         sync_mode: overwrite
       - id: knowledge_nepal_202506
         sync_mode: deduped
-      - id: knowledge_bangaldesh_202506
+      - id: knowledge_bangladesh_202506
         sync_mode: overwrite
