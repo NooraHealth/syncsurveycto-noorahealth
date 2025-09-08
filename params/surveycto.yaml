@@ -52,6 +52,8 @@ environments:
         sync_mode: deduped
       - id: qat_bangladesh_202508
         sync_mode: deduped
+      - id: qat_knowledge_indonesia_202509
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
