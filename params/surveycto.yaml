@@ -54,13 +54,39 @@ environments:
         sync_mode: deduped
       - id: qat_knowledge_indonesia_202509
         sync_mode: deduped
+      - id: hep_bangladesh_facilities
+        sync_mode: append
+      - id: hep_bangladesh_trainers
+        sync_mode: append
+      - id: hep_india_facilities
+        sync_mode: append
+      - id: hep_india_trainers
+        sync_mode: append
+      - id: hep_indonesia_facilities
+        sync_mode: append
+      - id: hep_indonesia_trainers
+        sync_mode: append
+      - id: hep_nepal_facilities
+        sync_mode: append
+      - id: hep_nepal_trainers
+        sync_mode: append
   # <<<<< THIS IS SPARTA!
 
   - name: dev
     streams:
-      - id: tt_experiment_two_datasheet
-        sync_mode: overwrite
-      - id: knowledge_nepal_202506
-        sync_mode: deduped
-      - id: knowledge_bangladesh_202507
-        sync_mode: deduped
+      - id: hep_bangladesh_facilities
+        sync_mode: append
+      - id: hep_bangladesh_trainers
+        sync_mode: append
+      - id: hep_india_facilities
+        sync_mode: append
+      - id: hep_india_trainers
+        sync_mode: append
+      - id: hep_indonesia_facilities
+        sync_mode: append
+      - id: hep_indonesia_trainers
+        sync_mode: append
+      - id: hep_nepal_facilities
+        sync_mode: append
+      - id: hep_nepal_trainers
+        sync_mode: append
