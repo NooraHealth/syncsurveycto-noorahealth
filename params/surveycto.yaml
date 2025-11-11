@@ -4,49 +4,49 @@ environments:
   # >>>>> THIS IS SPARTA!
   - name: prod
     streams:
-      - id: ccp_audit_tool_bd
-        sync_mode: deduped
-      - id: indonesia_mch_2
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__65_months
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__7_months
-        sync_mode: deduped
-      - id: tt_checkup__2023__experiment_2__75_months
-        sync_mode: deduped
-      - id: tt_checkup__2023__experiment_2__8_months
-        sync_mode: deduped
-      - id: tt_checkup__2023__experiment_2__85_months
-        sync_mode: deduped
-      - id: tt_checkup__2023__experiment_2__9_months
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__post_delivery__15_days
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__post_delivery__30_days
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__post_delivery__40_days
-        sync_mode: deduped
-      - id: tt_checkup_2023__experiment_2__post_delivery__60_days
-        sync_mode: deduped
-      - id: ttexp2_cases
-        sync_mode: overwrite
-      - id: tt_experiment_two_datasheet
-        sync_mode: overwrite
-      - id: teletraining_experiment_2
-        sync_mode: deduped
-      - id: bd_pre_survey_tool
-        sync_mode: deduped
-      - id: bd_post_survey_tool
-        sync_mode: deduped
-      - id: expt_2503131_phone_followup
-        sync_mode: deduped
-      - id: nepal_mch_ccp_session_quality_assessment_tool
+      # - id: ccp_audit_tool_bd
+      #   sync_mode: deduped
+      # - id: indonesia_mch_2
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__65_months
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__7_months
+      #   sync_mode: deduped
+      # - id: tt_checkup__2023__experiment_2__75_months
+      #   sync_mode: deduped
+      # - id: tt_checkup__2023__experiment_2__8_months
+      #   sync_mode: deduped
+      # - id: tt_checkup__2023__experiment_2__85_months
+      #   sync_mode: deduped
+      # - id: tt_checkup__2023__experiment_2__9_months
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__post_delivery__15_days
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__post_delivery__30_days
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__post_delivery__40_days
+      #   sync_mode: deduped
+      # - id: tt_checkup_2023__experiment_2__post_delivery__60_days
+      #   sync_mode: deduped
+      # - id: ttexp2_cases
+      #   sync_mode: overwrite
+      # - id: tt_experiment_two_datasheet
+      #   sync_mode: overwrite
+      # - id: teletraining_experiment_2
+      #   sync_mode: deduped
+      # - id: bd_pre_survey_tool
+      #   sync_mode: deduped
+      # - id: bd_post_survey_tool
+      #   sync_mode: deduped
+      # - id: expt_2503131_phone_followup
+      #   sync_mode: deduped
+      # - id: nepal_mch_ccp_session_quality_assessment_tool
+      #   sync_mode: deduped
+      # - id: whatsapp_norms_survey
+      #   sync_mode: deduped
+      - id: knowledge_nepal_202506
         sync_mode: deduped
       - id: qat_nepal_202506
-        sync_mode: deduped
-      - id: whatsapp_norms_survey
-        sync_mode: deduped
-      - id: knowledge_nepal_202506
         sync_mode: deduped
       - id: knowledge_bangladesh_202507
         sync_mode: deduped
