@@ -70,6 +70,8 @@ environments:
         sync_mode: append
       - id: hep_nepal_trainers
         sync_mode: append
+      - id: qat_ab_experiment_india_202601
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
