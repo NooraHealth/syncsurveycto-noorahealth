@@ -72,6 +72,8 @@ environments:
         sync_mode: append
       - id: qat_ab_experiment_india_202601
         sync_mode: deduped
+      - id: sis_phone_followup_anc_redesign
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
