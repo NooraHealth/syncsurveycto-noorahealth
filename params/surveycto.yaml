@@ -74,19 +74,9 @@ environments:
 
   - name: dev
     streams:
-      - id: hep_bangladesh_facilities
-        sync_mode: append
       - id: hep_bangladesh_trainers
         sync_mode: append
-      - id: hep_india_facilities
-        sync_mode: append
-      - id: hep_india_trainers
-        sync_mode: append
-      - id: hep_indonesia_facilities
-        sync_mode: append
-      - id: hep_indonesia_trainers
-        sync_mode: append
-      - id: hep_nepal_facilities
-        sync_mode: append
-      - id: hep_nepal_trainers
-        sync_mode: append
+      - id: knowledge_bangladesh_202507
+        sync_mode: deduped
+      - id: qat_bangladesh_202508
+        sync_mode: deduped
