@@ -63,7 +63,7 @@ environments:
       - id: hep_india_trainers
         sync_mode: append
       - id: hep_indonesia_facilities
-        sync_mode: overwrite
+        sync_mode: append
       - id: hep_indonesia_trainers
         sync_mode: append
       - id: hep_nepal_facilities
