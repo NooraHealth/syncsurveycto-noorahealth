@@ -76,6 +76,8 @@ environments:
         sync_mode: deduped
       - id: qat_ab_experiment_india_202606
         sync_mode: deduped
+      - id: sis_phone_followup_pnc_sncu_redesign
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
@@ -94,9 +96,9 @@ environments:
         sync_mode: deduped
       - id: sis_phone_followup_anc_redesign
         sync_mode: deduped
-      - id: test_pnc_qat_ab_experiment_india_202601
-        sync_mode: deduped
-      - id: expt_2503131_phone_followup
-        sync_mode: deduped
       - id: qat_ab_experiment_india_202606
+        sync_mode: deduped
+      - id: draft_behavior_nepal_202606
+        sync_mode: deduped
+      - id: sis_phone_followup_pnc_sncu_redesign
         sync_mode: deduped
