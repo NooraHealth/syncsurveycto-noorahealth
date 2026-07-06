@@ -12,6 +12,14 @@ get_slack_message_text = \(e) {
   txt
 }
 
+send_slack_message = \(txt, channel, token = NULL) {
+  if (is.null(token)) token = Sys.getenv('SLACK_TOKEN')
+  httr::POST(
+    url = 'https://slack.com/api/chat.postMessage',
+    httr::add_headers(Authorization = paste('Bearer', token)),
+    body = list(channel = channel, text = txt))
+}
+
 tryCatch({
   scto_params = get_params(file.path('params', 'surveycto.yaml'))
   wh_params = get_params(file.path('params', 'warehouse.yaml'))
@@ -23,6 +31,6 @@ tryCatch({
   if (wh_params$environment != 'prod') stop(e)
   txt = get_slack_message_text(e)
   slack_params = get_params(file.path('params', 'slack.yaml'))
-  slackr::slackr_msg(txt, channel = slack_params$channel_id)
+  send_slack_message(txt, channel = slack_params$channel_id)
   stop(e)
 })
