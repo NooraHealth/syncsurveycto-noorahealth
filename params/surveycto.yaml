@@ -78,6 +78,8 @@ environments:
         sync_mode: deduped
       - id: sis_phone_followup_pnc_sncu_redesign
         sync_mode: deduped
+      - id: qat_bangladesh_202608
+        sync_mode: deduped
   # <<<<< THIS IS SPARTA!
 
   - name: dev
@@ -101,4 +103,6 @@ environments:
       - id: draft_behavior_nepal_202606
         sync_mode: deduped
       - id: sis_phone_followup_pnc_sncu_redesign
+        sync_mode: deduped
+      - id: qat_bangladesh_202608
         sync_mode: deduped
