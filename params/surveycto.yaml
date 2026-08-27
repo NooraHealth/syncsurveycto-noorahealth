@@ -100,8 +100,6 @@ environments:
         sync_mode: deduped
       - id: qat_ab_experiment_india_202606
         sync_mode: deduped
-      - id: draft_behavior_nepal_202606
-        sync_mode: deduped
       - id: sis_phone_followup_pnc_sncu_redesign
         sync_mode: deduped
       - id: qat_bangladesh_202608
