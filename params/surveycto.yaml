@@ -54,22 +54,6 @@ environments:
         sync_mode: deduped
       - id: qat_knowledge_indonesia_202509
         sync_mode: deduped
-      - id: hep_bangladesh_facilities
-        sync_mode: append
-      - id: hep_bangladesh_trainers
-        sync_mode: append
-      - id: hep_india_facilities
-        sync_mode: append
-      - id: hep_india_trainers
-        sync_mode: append
-      - id: hep_indonesia_facilities
-        sync_mode: append
-      - id: hep_indonesia_trainers
-        sync_mode: append
-      - id: hep_nepal_facilities
-        sync_mode: append
-      - id: hep_nepal_trainers
-        sync_mode: append
       - id: qat_ab_experiment_india_202601
         sync_mode: deduped
       - id: sis_phone_followup_anc_redesign
