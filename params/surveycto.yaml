@@ -66,6 +66,8 @@ environments:
         sync_mode: incremental
       - id: knowledge_bangladesh_202609
         sync_mode: incremental
+      - id: hr_rct_ccp_qat_tool_india
+        sync_mode: incremental
   # <<<<< THIS IS SPARTA!
 
   - name: dev
